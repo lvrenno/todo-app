@@ -1,0 +1,28 @@
+.taskInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.createdTasks{
+    display: flex;
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.doneTasks{
+    display: flex;
+    color: var(--purple);
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.counter{
+    background: var(--gray-400);
+    color: var(--gray-100);
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-left: 0.5rem;
+}
