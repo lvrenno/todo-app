@@ -1,23 +1,22 @@
-# Social Feed App
+# Todo List App
 
-A TypeScript and React-based social feed application that demonstrates core React concepts and modern web development practices.
+A modern, TypeScript and React-based todo list application built with Vite. This project demonstrates clean component architecture and state management in React.
 
 ## Features
 
-- 📝 Create and delete comments on posts
-- 👍 Like comments with counter
-- 🎨 Responsive layout with sidebar
-- 👤 User profile with avatar
-- 📱 Mobile-friendly design
+- ✏️ Create and manage tasks
+- ✅ Mark tasks as complete
+- 🗑️ Delete tasks
+- � Track completion progress
+- 🎨 Modern and responsive design
+- � Styled with CSS Modules
 
 ## Technologies
 
-- React 19
+- React
 - TypeScript
 - Vite
 - CSS Modules
-- date-fns for date formatting
-- phosphor-react for icons
 
 ## Getting Started
 
@@ -54,36 +53,39 @@ npm run build
 
 ```
 src/
-├── assets/         # Static assets
+├── assets/         # Static assets (SVG files)
 ├── components/     # React components
-│   ├── Avatar/     
-│   ├── Comment/    
-│   ├── Header/     
-│   ├── Post/       
-│   └── Sidebar/    
-├── App.tsx         # Main application component
-├── global.css      # Global styles
-└── main.tsx       # Application entry point
+│   ├── EmptyList/   # Empty state component
+│   ├── Header/      # Application header
+│   ├── InputField/  # Task input component
+│   ├── Task/        # Individual task component
+│   ├── TaskInfo/    # Task statistics component
+│   └── TaskList/    # Task list container
+├── types/         # TypeScript interfaces
+├── App.tsx        # Main application component
+├── global.css     # Global styles
+└── main.tsx      # Application entry point
 ```
 
 ## Features in Detail
 
-### Posts
-- Display author information
-- Show publish date with relative time
-- Support for text and link content
-- Comment system with delete functionality
+### Task Management
+- Create new tasks with a description
+- Mark tasks as complete/incomplete
+- Delete tasks
+- Empty state display when no tasks exist
 
-### Comments
-- User avatar display
-- Like counter
-- Delete functionality
-- Responsive design
+### Task Statistics
+- Track total number of tasks
+- Monitor completed tasks count
+- Display completion percentage
 
-### Sidebar
-- User profile information
-- Custom avatar component
-- Profile editing button
+### User Interface
+- Clean and modern design
+- Responsive layout
+- Smooth transitions and animations
+- Interactive hover states
+- Empty state illustrations
 
 ## Contributing
 
