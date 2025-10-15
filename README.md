@@ -4,12 +4,12 @@ A modern, TypeScript and React-based todo list application built with Vite. This
 
 ## Features
 
-- ✏️ Create and manage tasks
-- ✅ Mark tasks as complete
-- 🗑️ Delete tasks
-- � Track completion progress
-- 🎨 Modern and responsive design
-- � Styled with CSS Modules
+- Create and manage tasks
+- Mark tasks as complete
+- Delete tasks
+- Track completion progress
+- Modern and responsive design
+- Styled with CSS Modules
 
 ## Technologies
 
